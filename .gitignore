@@ -1,0 +1,23 @@
+# Zależności
+/node_modules
+
+# Buildy Next.js
+/.next/
+/out/
+
+# Produkcja
+/build
+
+# BEZPIECZEŃSTWO: pliki środowiskowe z kluczami API — NIGDY nie commitujemy sekretów
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logi i diagnostyka
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+next-env.d.ts
