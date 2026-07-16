@@ -2,7 +2,7 @@
   "name": "soc-sentinel",
   "version": "1.0.0",
   "private": true,
-  "description": "Webowy Cyber Threat Intelligence Dashboard (SOC L1) — projekt portfolio",
+  "description": "Konsola triage IOC dla analityka SOC L1 — wieloźródłowa analiza reputacji IP i domen z korektą false positive dla pul chmurowych. Projekt portfolio.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
