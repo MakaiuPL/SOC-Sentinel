@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06b6d4?logo=tailwindcss)](https://tailwindcss.com)
 
-## O co chodzi? (Dla rekrutera)
+## O co chodzi? 
 
 **Jak czytać ten projekt:** to w pełni działające narzędzie, jakiego używa analityk SOC pierwszej linii do szybkiej oceny, czy podejrzany adres IP lub domena stanowi realne zagrożenie.
 
