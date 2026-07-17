@@ -82,44 +82,6 @@ SOC-Sentinel/
 
 ---
 
-## Co dalej? Twój następny projekt portfolio
-
-Ten projekt pokrywa umiejętność **analizy wskaźników sieciowych (IOC)**. Następny powinien celować w inną domenę security, żebyś pokazał szerokość kompetencji. Rekomenduję:
-
-### PhishCatch — Analizator Wiadomości Phishingowych
-
-**Zakres:** SOC L1 + Helpdesk Security
-
-Narzędzie, do którego analityk wrzuca podejrzanego maila (jako plik `.eml` lub surowy tekst z headera + body). Aplikacja automatycznie:
-
-- Wyciąga nagłówki SPF / DKIM / DMARC i wizualizuje, czy autoryzacja przeszła (zielone/żółte/czerwone checkmarki)
-- Parsuje MIME, wyodrębnia attachmenty i zagnieżdżone URLe
-- Przepuszcza każdy link przez VirusTotal URL API (ponowne wykorzystanie kodu z tego projektu!)
-- Ocenia ryzyko językowe: wykrywa słowa kluczowe w treści (nagłość, presja, podszywanie)
-- Generuje raport w formacie nadającym się do wklejenia w zgłoszenie do SOC Tier 2
-
-**Dlaczego HR to kupi:**
-- Phishing to wektor nr 1 ataków na organizacje — temat na każdym stanowisku security
-- Łączy SOC (analiza techniczna nagłówków) z Helpdeskiem (zgłoszenie od użytkownika)
-- Demonstruje znajomość protokołów e-mail (SPF/DKIM/DMARC) — rzadka umiejętność u juniorów
-- Kod będzie podobny architektonicznie do SOC Sentinel (Next.js + te same pakiety), więc budujesz szybko
-- Pokażesz portfolioowym narzędziem dokładnie to, co rekruter widzi na swojej liście wymagań ogłoszenia
-
-**Inne opcje (jeśli wolisz inną domenę):**
-
-| Projekt | Domena | Co pokazuje |
-|---|---|---|
-| **LogHound** | SIEM / analiza logów | Parsuje Windows Event Log / syslog, wykrywa brute-force (5+ failed loginów z jednego IP w 60s), wizualizuje oś czasu ataku |
-| **PortShadow** | Network Security | Dashboard na wyniki Nmapa — otwarte porty, wykryte wersje usług, porównanie skanów sprzed i po patchowaniu |
-| **HashGuard** | Password Security | Sprawdza hashe haseł przez HaveIBeenPwned API (k-anonimowość, tylko 5 pierwszych znaków hasha), ocenia siłę polityki haseł w organizacji |
-
----
-
-## Wymagania
-
-- Node.js ≥ 18
-- npm ≥ 9
-
 ## Autor
 
 Projekt demonstracyjny portfolio na stanowiska Junior SOC Analyst / Helpdesk Security / IT Security. Każda linijka kodu opatrzona jest komentarzem wyjaśniającym decyzję bezpieczeństwa — czytaj kod jako uzupełnienie CV.
